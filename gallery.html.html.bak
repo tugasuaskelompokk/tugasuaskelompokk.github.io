@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Goudy Old Style;
+            padding: 10px;
+            background: #FFEFD5;
+	    background-image:url("background1.jpeg");
+	    background-size: auto;
+	    background-size: 1920px 1080px;
+            background-repeat: no-repeat;
+	    background-attachment:fixed;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: transparant;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #7A2B28;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #FFFAFA;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: url(dufan.jpg);
+  width: 100%;
+  background-repeat:no-repeat;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #EABE9B;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #7A2B28;
+  margin-top: 20px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, 
+make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, 
+make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="color:brown;">MELALI DIBALI</h1>
+  <h2>Make Your Destinations</h2>
+</div>
+
+<div class="topnav">
+  <a href="index.html">HOME</a>
+  <a href="about us.html.html">ABOUT US</a>
+  <a href="gallery.html.html">GALLERY</a>
+  <a href="contact us.html.html" style="float:right">CONTACT US</a>
+</div>
+
+<div class="row">
+    <div class="card">
+      <h2>WISATA BALI</h2>
+      <h3>Referensi Wisata</h3>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="bali safari.jpeg" alt="Bali Safari" width="600" height="400">
+	  <a href="https://www.balisafarimarinepark.com/">Bali Safari and Marine Park</a>
+    <div class="desc">Bali Safari and Marine Park merupakan Taman Safari Indonesia 3 yang menjadi wisata menarik lainnya yang dapat anda kunjungi selama di Bali. Tempat ini menjadi tempat penangkaran bagi hewan-hewan yang rawan punah. Konsep dari Bali Safari and Marine park ini, pengunjung dapat menikmati pengalaman bersafari dimulai dari derah Bali Modern dan kemudian masuk ke daerah Bali kuno yang memberikan beberapa edukasi seputar sejarah, mitos, filosofi, dan lainnya yang berhubungan dengan kehidupan liar.</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="tanah lot 2.jpeg" alt="Tanah Lot" width="600" height="400">
+	  <a href="https://www.instagram.com/iannoying/">Tanah Lot</a>
+    <div class="desc">Wisata yang satu ini terkenal dengan keindahan pemandangannya, terutama menjelang matahari terbenam. Keunikan utama yang ada di wisata tanah lot ini adalah adanya pura yang berada di sebuah batu karang besar yang ada di pinggiran laut. Saat laut sedang pasang, maka anda tidak dapat mendekati pura karena kawasan di sekitar batu karang akan digenangi dengan air laut. Saat air surut, anda dapat melihat beberapa ular laut yang jinak. </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="waterbom bali.jpg" alt="Bali Safari" width="600" height="400">
+	  <a href="http://waterbom-bali.com/">Waterbom Bali</a>
+    <div class="desc">Wisata taman air di Pulau Bali ini sudah 3 tahun berturut-turut mendapatkan title sebagai waterpark terbaik yang ada di Asia serta kedua terbaik di dunia. Sehingga bisa dibayangkan bagaimana keseruan dari wahana-wahana air yang ada di waterboom bali. Jika anda menyukai permainan yang dapat menguji adrenalin, maka anda dapat mencoba wsuper bowl, jungle rides, ace track, boomerang, dan masih banyak lainnya.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="bali bird park.jpg" alt="Bali Safari" width="600" height="400">
+	  <a href="https://www.balibirdpark.com/">Bali Bird Park</a>
+    <div class="desc">Wisata keluarga ini dibuka pertama kalinya pada tahun 1995. Berada di area seluas 2 hektar, Bali Bird Park ini menjadi salah satu taman burung yang terbesar di Indonesia. Kurang lebih terdapat 1.000 satwa dari 250 jenis spesies ungags yang berada di Bali Bird Park. Tak hanya dapat melihat berbagai macam burung-burung yang menarik secara langsung, namun pengunjung juga dapat merasakan sensasi berada di teater 4D.</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="the keranjang bali.jpg" alt="The Keranjang Bali" width="600" height="400">
+	  <a href="http://instagram.com/thekeranjangbali">The Keranjang Bali</a>
+    <div class="desc">Kalau membahas tentang tempat wisata di Bali yang hits sepertinya Anda wajib berkunjung ke The Keranjang Bali yang berlokasi di kawasan Kuta ini. Berlokasi di 2 jalan utama yakni Jalan Raya Kuta dan Jalan By Pass Ngurah Rai membuat The Keranjang sebagai kawasan wisata baru di Pulau Bali. Hanya 5 menit dari Bandara Ngurah Rai, tempat wisata Bali ini menghadirkan pengalaman baru dalam menikmati Bali di satu tempat.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="air terjun blangsinga.jpg" alt="Air Terjun Blangsinga" width="600" height="400">
+	  <a href="http://instagram.com/thekeranjangbali">Air Terjun Blangsinga</a>
+    <div class="desc">Nama Blangsinga mulai dikenal luas setelah menjadi tempat menikah putra dari pengusaha Bali terkenal, Ajik Krisna. Desa wisata di Bali ini memang masih cukup jarang dikenal oleh wisatawan luar Bali. Padahal, banyak tempat indah disini. Salah satunya adalah Air Terjun Blangsinga.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="tirta empul bali.jpg" alt="Tirta Empul Bali" width="600" height="400">
+	  <a href="https://www.instagram.com/tirtaempuls/">Tirta Empul Bali</a>
+    <div class="desc">Salah satu pura suci di Bali dengan kekayaan sejarah yang tinggi, Tirta Empul. Tirta Empul memiliki kolam penyucian yang aktif dipergunakan warga Bali. Jika anda berkunjung kesini, wajib untuk selalu menghargai adat istiadat setempat ya.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="goa gajah.jpg" alt="Goa Gajah" width="600" height="400">
+	  <a href="https://www.rentalmobilbali.net/goa-gajah/">Goa Gajah</a>
+    <div class="desc">Goa Gajah merupakan salah satu situs kuno, sekaligus tempat peribadahan yang masih digunakan sampai sekarang. Disini, anda bisa melihat secara langsung bukti sejarah peradaban di Bali yang masih terjaga sampai kini.</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+   <div class="footer">
+	<p style="color:white;">Author: Silvia M (12180243), Josellyn (12180248), Putri N (12180252)<br>
+		<a href="mailto:Josellynkusuma@gmail.com">Josellynkusuma@gmail.com</a></p>
+		<a href="https://instagram.com"><img src="Instagram.png" width="35" height="35"></a>
+		<a href="https://www.tiktok.com/"><img src="Tiktok.png" width="30" height="30"></a>
+		<a href="https://www.tiktok.com/"><img src="traveloka.png" width="30" height="30"></a>
+	<h5 style="color:white;">Copyright &copy2021 | by Melali Bali</h5>
+</div>
+
+</body>
+</html>

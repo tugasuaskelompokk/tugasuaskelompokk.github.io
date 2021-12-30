@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Goudy Old Style;
+            padding: 10px;
+            background: #FFEFD5;
+	    background-image:url("background1.jpeg");
+	    background-size: auto;
+	    background-size: 1920px 1080px;
+            background-repeat: no-repeat;
+	    background-attachment:fixed;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: transparant;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #7A2B28;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #FFFAFA;
+  color: brown;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #7A2B28;
+  margin-top: 20px;
+}
+
+.mail{
+		width: 730px;
+		margin: 10px auto;
+		border: 1px solid #ddd;
+		padding: 10px;
+	}
+.mail div{
+		padding: 5px 0;
+		border-bottom: 1px solid #ddd;
+	}
+label{
+		width: 100px;
+		display: inline-block;
+	}
+.bottom{
+		font-size: 12px;
+		text-align: right;
+	}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="color:brown;">MELALI DIBALI</h1>
+  <h3>Make Your Destinations</h3>
+</div>
+
+<div class="topnav">
+  <a href="index.html">HOME</a>
+  <a href="about us.html.html">ABOUT US</a>
+  <a href="gallery.html.html">GALLERY</a>
+  <a href="contact us.html.html" style="float:right">CONTACT US</a>
+</div>
+
+<div class="row">
+    <div class="card">
+      <h2>CONTACT US</h2>
+      <h4>Apabila ada pertanyaan silahkan isi kolom di bawah ini</h4>
+      <div class="mail">
+        <form action="send_mail.php" method="post">
+            
+            <div>
+                <label for="name">Nama</label>
+                <input type="text" name="name">
+            </div>
+    
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email">
+            </div>
+    
+            <div>
+                <label for="subject">Subjek</label>
+                <input type="text" name="subject">
+            </div>
+    
+            <div>
+              <label for="Jns_pesan :">Pesan</label>
+              <select name="jns_pesan">
+                <option value="saran">Sarana</option>
+                <option value="komentar">Komentar</option>
+                <option value="keluhan">Keluhan</option>
+              </select>
+          </div>
+
+            <div>
+                <label for="message"></label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+    
+            <div><input type="submit" value="Send email"></div>
+    
+        </form>
+    </div>
+    </div>
+</div>
+ <div class="footer">
+	<p style="color:white;">Author: Silvia M (12180243), Josellyn (12180248), Putri N (12180252)<br>
+		<a href="mailto:Josellynkusuma@gmail.com">Josellynkusuma@gmail.com</a></p>
+		<a href="https://instagram.com"><img src="Instagram.png" width="35" height="35"></a>
+		<a href="https://www.tiktok.com/"><img src="Tiktok.png" width="30" height="30"></a>
+		<a href="https://www.tiktok.com/"><img src="traveloka.png" width="30" height="30"></a>
+	<h5 style="color:white;">Copyright &copy2021 | by Melali Bali</h5>
+</div>
+
+</body>
+</html>

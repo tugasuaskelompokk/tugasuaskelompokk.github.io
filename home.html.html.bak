@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Goudy Old Style;
+            padding: 10px;
+            background: #FFEFD5;
+	    background-image:url("background1.jpeg");
+	    background-size: auto;
+	    background-size: 1920px 1080px;
+            background-repeat: no-repeat;
+	    background-attachment:fixed;
+        }
+	
+        /* Header/Blog Title */
+        .header {
+            padding: 30px;
+            text-align: center;
+            background: transparant;
+        }
+
+            .header h1 {
+                font-size: 50px;
+            }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color:#7A2B28
+        }
+
+            /* Style the topnav links */
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                /* Change color on hover */
+                .topnav a:hover {
+                    background-color: #FFFAFA
+                    color: brown;
+                }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+
+        /* Fake image */
+        .fakeimg {
+           
+        }
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Add a card effect for articles */
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #7A2B28;
+            margin-top: 20px;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1 style="color:brown;">MELALI DIBALI</h1>
+			<h2>Make Your Destinations</h2>
+    </div>
+
+    <div class="topnav">
+		<a href="index.html">HOME</a>
+		<a href="about us.html.html">ABOUT US</a>
+		<a href="gallery.html.html">GALLERY</a>
+		<a href="contact us.html.html" style="float:right">CONTACT US</a>
+	</div>
+
+<div class="row">
+    <div class="card">
+      <h1 style="font-size : 26px;color:brown;">BEST DESTINATION</h1>
+
+    <div class="row">
+		<div class="card">
+			<video width="1300" height="300" controls>
+				<source src="Bali Opening.mp4" type="video/mp4">
+			</video>
+            <h5 style="font-size:18px;color:black;">Bali atau biasa kita kenal dengan pulau Dewata. Bali sebelumnya merupakan bagian dari Provinsi Sunda Kecil bersama dengan Lombok, Sumbawa, Sumba, Flores, dan Timor. Pada tahun 1958 Bali resmi menjadi provinsi sendiri dengan ibukota Singaraja. Kemudian pada tahun 1960 berpindah ke Denpasar. Provinsi Bali terdiri dari Pulau Bali dan pulau-pulau kecil di sekitarnya antara lain Nusa Penida, Nusa Lembongan, Nusa Ceningan, dan Pulau Serangan. Secara keseluruhan Bali memiliki sekitar 85 pulau, termasuk yang tidak berpenghuni.Bali adalah pulau yang sangat indah dengan panjang garis pantai sekitar 633,35 km. Di Pulau Bali terdapat gunung berapi, sungai-sungai, dan danau. Keberadaan gunung berapi memberikan kesuburan tanah untuk usaha pertanian. Gunung berapi di Pulau Bali adalah Gunung Batur dan Gunung Agung. Titik tertinggi di Bali adalah Gunung Agung setinggi 3.148 m dan terakhir meletus pada tahun 1963. Sedangkan Gunung Batur letusannya pernah menghasilkan bencana besar di bumi sekitar 30.000 tahun yang lalu.Sebagian besar penduduk Bali beragama Hindu. Di hampir setiap sudut wilayah terdapat pura peribadatan, baik pura besar yang dipakai sebagai tempat upacara bersama maupun pura kecil di setiap rumah. Oleh karena itu, selain dikenal sebagai Pulau Dewata, Bali juga disebut dengan Pulau Seribu Pura. Ritual keagamaan yang kental memengaruhi hampir setiap unsur dan gerak kehidupan masyarakat Bali. Hal ini menjadikan Bali tidak hanya memiliki pemandangan yang indah tetapi juga kebudayaan yang unik, eksotis, dan terjaga. Bali adalah tujuan wisata internasional yang seringkali lebih dikenal daripada Indonesia.Masyarakat Bali menganut falsafah hidup Tri Hita Karana yang memuat tiga unsur pembangun keseimbangan dan keharmonisan hubungan antara manusia dengan Tuhan, manusia dengan manusia, dan manusia dengan lingkungannya. Tri Hita Karana menjadi sumber kesejahteraan, kedamaian, dan kebahagiaan bagi kehidupan manusia.Perekonomian Bali sebagian besar ditopang oleh sektor pariwisata. Denpasar merupakan pusat pemerintahan dan perekonomian hingga saat ini. Beberapa kegiatan ekonomi dan kawasan baru telah dan sedang dikembangkan untuk mendukung sektor pariwisata, seperti ekonomi kreatif, pariwisata maritim, dan ekowisata di Ubud, Nusa Dua, Seminyak, Jimbaran, dan beberapa tempat lainnya.<a href="https://tarubali.baliprov.go.id/sekilas-bali/"><h5 style="font-size:15px;color:black;">Klik disini </a></h5>
+			<h4 style="font-size:23px;color:brown;">REKOMENDASI WISATA TERBAIK DI BALI</h4>
+					<a href="https://www.google.com/amp/s/www.rentalmobilbali.net/harga-tiket-masuk-pura-uluwatu/amp/"><img src="uluwatu.jpeg" width="350" height="200"></a>
+					<a href="https://www.google.com/aclk?sa=L&ai=DChcSEwjIr_CuzYX1AhWckmYCHcTrDGAYABAEGgJzbQ&cid=CAASQ-Rop2629WAbsPASjdFiHp5ymbqPj26yXPX3_hpnawBVpWjzrMU-0WHkyTIaRDkygUXV6m4FDgQVWKwVrhALsUHs-QU&sig=AOD64_2hyLzdWeCqIt8urNs6c_eP4zFSkQ&q=&ved=2ahUKEwi35eeuzYX1AhVD73MBHVBUB5YQ0Qx6BAhEEAE&adurl="><img src="GWK.jpeg" width="350" height="200"></a>
+					<a href="https://www.water-sport-bali.com/pantai-pandawa/"><img src="Pandawa.jpeg" width="350" height="200"></a>
+					<a href="https://www.rentalmobilbali.net/danau-beratan-bedugul/"><img src="bedugul.jpeg" width="350" height="200"></a>
+					<a href="https://www.gotravelaindonesia.com/wisata-pantai-jimbaran/"><img src="jimbaran.jpeg" width="350" height="200"></a>
+					<a href="https://www.rentalmobilbali.net/tanah-lot/"><img src="tanah lot.jpeg" width="350" height="200"></a>
+					<a href="https://salsawisata.com/danau-batur/"><img src="danau batur.jpeg" width="350" height="200"></a>
+					<a href="https://www.rentalmobilbali.net/seminyak-tempat-wisata-di-bali/"><img src="seminyak.jpeg" width="350" height="200"></a>
+		  </div>
+        </div>
+    </div>
+
+<div class="footer">
+	<p style="color:white;">Author: Silvia M (12180243), Josellyn (12180248), Putri N (12180252)<br>
+		<a href="mailto:Josellynkusuma@gmail.com">Josellynkusuma@gmail.com</a></p>
+		<a href="https://instagram.com"><img src="Instagram.png" width="35" height="35"></a>
+		<a href="https://www.tiktok.com/"><img src="Tiktok.png" width="30" height="30"></a>
+		<a href="https://www.tiktok.com/"><img src="traveloka.png" width="30" height="30"></a>
+	<h5 style="color:white;">Copyright &copy2021 | by Melali Bali</h5>
+</div>
+
+</body>
+</html>
